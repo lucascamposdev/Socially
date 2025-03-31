@@ -1,3 +1,4 @@
+import ThemeToggler from "@/components/ThemeToggler"
 import {
   SignedIn,
   SignedOut,
@@ -16,6 +17,9 @@ export default function Home() {
       <SignedIn>
         <UserButton />
       </SignedIn>
+
+
+    <ThemeToggler/>
     </div>
   )
 }
